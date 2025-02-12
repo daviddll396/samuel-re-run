@@ -1,6 +1,6 @@
 import { useMovieContext } from "../contexts/MovieContext";
 // import PropTypes from "prop-types";
-import "../css/Moviecard.css";
+import "/src/css/Moviecard.css";
 
 const MovieCard = ({ movie }) => {
   const { isFavorite, addToFavorites, removeFromFavorites } = useMovieContext();
