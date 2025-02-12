@@ -48,7 +48,7 @@ export const MovieProvider = ({ children }) => {
   );
 }; //provides state to any of the components that are wrapped around or inside of it
 
-// Add PropTypes definition
+// PropTypes definition
 MovieProvider.propTypes = {
   children: PropTypes.node.isRequired,
 };
