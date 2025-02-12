@@ -1,5 +1,5 @@
 import { createContext, useContext, useEffect, useState } from "react";
-import PropTypes from "prop-types";
+// import PropTypes from "prop-types";
 
 const MovieContext = createContext();
 
@@ -49,6 +49,6 @@ export const MovieProvider = ({ children }) => {
 }; //provides state to any of the components that are wrapped around or inside of it
 
 // PropTypes definition
-MovieProvider.propTypes = {
-  children: PropTypes.node.isRequired,
-};
+// MovieProvider.propTypes = {
+//   children: PropTypes.node.isRequired,
+// };

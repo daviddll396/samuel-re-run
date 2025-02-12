@@ -1,5 +1,5 @@
 import { useMovieContext } from "../contexts/MovieContext";
-import PropTypes from "prop-types";
+// import PropTypes from "prop-types";
 import "../css/Moviecard.css";
 
 const MovieCard = ({ movie }) => {
@@ -43,13 +43,13 @@ const MovieCard = ({ movie }) => {
   );
 };
 
-MovieCard.propTypes = {
-  movie: PropTypes.shape({
-    id: PropTypes.number.isRequired,
-    title: PropTypes.string.isRequired,
-    poster_path: PropTypes.string.isRequired,
-    release_date: PropTypes.string,
-  }).isRequired,
-};
+// MovieCard.propTypes = {
+//   movie: PropTypes.shape({
+//     id: PropTypes.number.isRequired,
+//     title: PropTypes.string.isRequired,
+//     poster_path: PropTypes.string.isRequired,
+//     release_date: PropTypes.string,
+//   }).isRequired,
+// };
 
 export default MovieCard;
